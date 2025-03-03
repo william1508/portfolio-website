@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Architectural visualisation & Digital Design</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">Design<span>Portfolio</span></a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+                <nav>
+                    <ul id="navMenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Architectural visualisation & Digital Design</h1>
+                <p>Creating stunning visual experiences through architectural visualisation, digital design, and e-learning solutions.</p>
+                <a href="#portfolio" class="btn">View Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Featured Work</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="game_ready_assets">Game ready assets</button>
+                <button class="filter-btn" data-filter="low_poly">Low poly</button>
+                <button class="filter-btn" data-filter="navel_products">Navel products</button>
+                <button class="filter-btn" data-filter="product_design">Product design</button>
+                <button class="filter-btn" data-filter="university_work">University work</button>
+                <button class="filter-btn" data-filter="visualisation">Visulisation</button>
+            </div>
+            <div class="portfolio-grid">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Architectural visualisation</h3>
+                    <p>High-quality 3D renderings and animations of architectural designs, bringing concepts to life before construction begins.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Interior Design</h3>
+                    <p>Detailed visualisations of interior spaces, helping clients to envision the final result of design proposals.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>E-Learning Design</h3>
+                    <p>Custom e-learning solutions that make complex information accessible and engaging for various learning contexts.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Digital Design</h3>
+                    <p>Comprehensive digital design services including UI/UX, graphic design, and branding for various platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images\linkedinprofile.jpg" alt="Designer Portrait">
+                </div>
+                <div class="about-text">
+                    <h3>Creative visualisation Expert</h3>
+                    <p>I am a passionate designer specializing in architectural visualisation, digital design, and e-learning solutions. With over 12 years of experience, I've worked with clients ranging from small businesses to large corporations, helping them communicate their vision through stunning visual experiences.</p>
+                    <p>My approach combines technical expertise with creative insight to deliver results that exceed expectations. I believe in the power of visual storytelling to communicate complex ideas and create memorable impressions.</p>
+                    <p>Every project is an opportunity to create something unique that serves both functional and aesthetic purposes, whether it's helping clients visualize their future building, designing intuitive digital experiences, or creating engaging educational content.</p>
+                    <a href="#contact" class="btn">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/grinter3dart/" class="social-link">LI</a>
+            </div>
+            <p>&copy; 2025 Design Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modal -->
+    <div class="modal" id="portfolioModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">×</button>
+            <img src="" alt="" id="modalImage">
+            <div class="modal-project-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalCategory"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
